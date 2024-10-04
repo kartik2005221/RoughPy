@@ -3,4 +3,9 @@
 with open("poem.txt", "r") as f:
     p=f.read()
 
-p.find("Twincle")
+l= p.lower()
+
+if l.find("twinkle")==-1:
+    print("there is no 'Twinkle' on poem")
+else:
+    print("there is 'Twinkle' in poem")
