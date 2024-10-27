@@ -9,4 +9,14 @@
 #     else:
 #         print(f"{a} is prime")
 
+# class Kkk:
+#     a=2
+# b=Kkk()
+# print(type(b))
 
+# class Hii:
+#     a=2
+#     @staticmethod
+#     def __init__():
+#         print("hi")
+# b=Hii()
