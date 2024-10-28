@@ -10,7 +10,9 @@ if kk==1:
     p = int(input("how many prime number do you want : "))
     m = int(input("where to start : "))
     counter = 1
-    for a in range(m, 10000000):
+    a=m
+    # for a in range(m, 10000000):
+    while a>=m:
         n = 2
         k = 1
         while a > n:
@@ -26,6 +28,7 @@ if kk==1:
         if counter == p + 1:
             break
         # print(counter)
+        a=a+1
 
     print(prime)
 elif kk==2:
