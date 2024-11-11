@@ -23,6 +23,7 @@ if kk==1:
         if k != 0:
             # print(f"{a} is prime")
             prime.append(a)
+            print(a)
             counter = counter + 1
 
         if counter == p + 1:
@@ -48,6 +49,7 @@ elif kk==2:
         if k != 0:
             # print(f"{a} is prime")
             prime.append(a)
+            print(a)
             # counter = counter + 1
 
         # if counter == b + 1:
@@ -56,15 +58,17 @@ elif kk==2:
 
     print(prime)
 elif kk==3:
-    a = int(input('Enter a +ve number : '))
+    a = int(input('Enter a +ve number for checking : '))
     n = 2
     factr = []
     k=1
 
+    print("Entered number is divisible by : ")
     while a > n:
         if a % n == 0:
             k = 0
             factr.append(n)
+            print(n)
         n = n + 1
 
     if a == 1:
