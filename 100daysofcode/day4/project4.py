@@ -2,6 +2,40 @@
 
 import random
 
+rock = '''
+
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+'''
+
+paper = '''
+
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+
+'''
+
+scissors = '''
+
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+'''
+
+art = [rock, paper, scissors]
 comcho = random.randint(1,3)
 print('''
 Welcome
@@ -11,7 +45,7 @@ Welcome
 3 -> for scisor''')
 mycho = int(input("Whats your choice ? ::: "))
 
-print(f"your choice = {mycho}\nand computer choice = {comcho}")
+print(f"your choice = {mycho}\n{art[mycho-1]}\nand computer choice = {comcho}\n{art[comcho-1]}")
 
 if comcho == mycho:
     print("Draw...!")
