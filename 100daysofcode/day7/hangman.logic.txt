@@ -1,0 +1,8 @@
+1. generate  a random word
+2. check its length
+3. make that many dashes
+4. enter a keyword, by user
+5. check, if its present in word or not
+6. if yes, re-do step 4, and keep the picture same
+7. if false, make next picture, and re-do step 4
+8. if u reach last pic, game ends, user loses
