@@ -20,3 +20,13 @@
 #     def __init__():
 #         print("hi")
 # b=Hii()
+#
+# import base64;
+# print(base64.b64decode('UGxhY2UgdGh5IHRydXN0IGluIHRoZSBkZW1vbiwgeWV0IG5l4oCZZXIgaW4gYSBtYWlkZW4sIHNhdmUgdGh5IG1vdGhlciBhbmQgdGh5IHNpc3Rlci4=').decode())
+
+import base64
+
+message = input("Enter your message to encode it with base64 : ")
+encoded = base64.b64encode(message.encode()).decode()
+print(encoded)
+
